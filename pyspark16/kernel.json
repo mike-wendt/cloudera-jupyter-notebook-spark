@@ -1,0 +1,18 @@
+{
+ "display_name": "PySpark-1.6",
+ "language": "python",
+ "argv": [
+  "/usr/bin/python2",
+  "-m",
+  "ipykernel",
+  "-f",
+  "{connection_file}"
+ ],
+ "env": {
+  "SPARK_HOME": "/opt/cloudera/parcels/CDH/lib/spark/",
+  "HADOOP_CONF_PATH": "/etc/hadoop/conf",
+  "PYTHONPATH": "/opt/cloudera/parcels/CDH/lib/spark/python/:/opt/cloudera/parcels/CDH/lib/spark/python/lib/py4j*src.zip",
+  "PYTHONSTARTUP": "/opt/cloudera/parcels/CDH/lib/spark/python/pyspark/shell.py",
+  "PYSPARK_SUBMIT_ARGS": "--master yarn-client pyspark-shell"
+ }
+}
