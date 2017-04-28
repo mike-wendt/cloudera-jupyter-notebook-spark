@@ -1,0 +1,18 @@
+{
+ "display_name": "PySpark-2.1",
+ "language": "python",
+ "argv": [
+  "/usr/bin/python2",
+  "-m",
+  "ipykernel",
+  "-f",
+  "{connection_file}"
+ ],
+ "env": {
+  "SPARK_HOME": "/opt/spark/",
+  "HADOOP_CONF_DIR": "/etc/hadoop/conf",
+  "PYTHONPATH": "/opt/spark/python/:/opt/spark/python/lib/py4j*src.zip",
+  "PYTHONSTARTUP": "/opt/spark/python/pyspark/shell.py",
+  "PYSPARK_SUBMIT_ARGS": "--master yarn pyspark-shell"
+ }
+}
