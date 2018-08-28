@@ -1,5 +1,6 @@
 # cloudera-jupyter-notebook-spark
-Settings for using Jupyter hub/notebook with CDH and Spark 2.1
+Settings for using Jupyter hub/notebook with CDH5 and PySpark
+> Including kernels for Spark inclued with CDH5 (currently 1.6) and the latest released version of Spark
 
 ## Install Jupyterhub
 
@@ -9,11 +10,11 @@ https://github.com/jupyterhub/jupyterhub
 
 Kernels are located in `/usr/local/share/jupyter/kernels`
 
-Move `pyspark16` and `pyspark21` folders into the above path
+Move `pysparkCDH` and `pysparkLatest` folders into the above path
 
 ## Install Spark
 
-1. Download Spark 2.1 for Hadoop 2.6: 
+1. [Download](https://spark.apache.org/downloads.html) the latest Spark version for Hadoop 2.6 (CDH5 is built on Hadoop 2.6): 
 2. Extract tarball to `/opt/spark`
 
 ## Upload Spark libs
