@@ -2,7 +2,7 @@
  "display_name": "PySpark-1.6",
  "language": "python",
  "argv": [
-  "/usr/bin/python2",
+  "/usr/bin/python3",
   "-m",
   "ipykernel",
   "-f",
