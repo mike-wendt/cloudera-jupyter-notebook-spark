@@ -46,4 +46,4 @@ Add to `yarn-site.xml` for `yarn.application.classpath` - `hdfs://hdfs-cluster:8
 
 ## Update `spark-defaults.conf`
 
-Make sure the HDFS path is correct and adjust to your setup
+Make sure the HDFS path is correct and adjust to your setup, then place into `/opt/spark/conf`
