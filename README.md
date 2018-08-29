@@ -7,6 +7,7 @@ Settings for using Jupyter hub/notebook with CDH5 and PySpark
 * Python 3 & `pip3`
 * `pip3 install ipykernel`
 * `pip3 install py4j`
+* Java 8+ on all YARN workers
 
 ## Install Jupyterhub
 
@@ -43,6 +44,8 @@ hadoop fs -put /opt/spark/yarn /lib
 Follow instructions here: http://spark.apache.org/docs/latest/running-on-yarn.html#configuring-the-external-shuffle-service
 
 Add to `yarn-site.xml` for `yarn.application.classpath` - `hdfs://hdfs-cluster:8020/lib/yarn/*`
+
+Configure `JAVA_HOME` for all worker nodes to point to Java 8 install, this can be done in Cloudera Manager
 
 ## Update `spark-defaults.conf`
 
