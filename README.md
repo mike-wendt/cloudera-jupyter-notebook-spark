@@ -2,6 +2,12 @@
 Settings for using Jupyter hub/notebook with CDH5 and PySpark
 > Including kernels for Spark inclued with CDH5 (currently 1.6) and the latest released version of Spark
 
+## Prereqs
+
+* Python 3 & `pip3`
+* `pip3 install ipykernel`
+* `pip3 install py4j`
+
 ## Install Jupyterhub
 
 https://github.com/jupyterhub/jupyterhub
