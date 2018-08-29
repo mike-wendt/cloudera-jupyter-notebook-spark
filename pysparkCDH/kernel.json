@@ -13,6 +13,7 @@
   "HADOOP_CONF_PATH": "/etc/hadoop/conf",
   "PYTHONPATH": "/opt/cloudera/parcels/CDH/lib/spark/python/:/opt/cloudera/parcels/CDH/lib/spark/python/lib/py4j*src.zip",
   "PYTHONSTARTUP": "/opt/cloudera/parcels/CDH/lib/spark/python/pyspark/shell.py",
+  "PYSPARK_PYTHON": "python3",
   "PYSPARK_SUBMIT_ARGS": "--master yarn-client pyspark-shell"
  }
 }
