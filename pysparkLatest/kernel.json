@@ -10,7 +10,7 @@
  ],
  "env": {
   "SPARK_HOME": "/opt/spark/",
-  "HADOOP_CONF_DIR": "/etc/hadoop/conf",
+  "HADOOP_CONF_DIR": "/etc/hadoop/conf:/etc/hive/conf",
   "PYTHONPATH": "/opt/spark/python/:/opt/spark/python/lib/py4j*src.zip",
   "PYTHONSTARTUP": "/opt/spark/python/pyspark/shell.py",
   "PYSPARK_PYTHON": "python3",
